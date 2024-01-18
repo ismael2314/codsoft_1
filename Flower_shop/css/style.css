@@ -1,0 +1,93 @@
+.btn-pink{
+    background: #774181;
+    color: #e6b2c6;
+
+}
+.btn-pink:hover{
+    background: #352961;
+    color: #e6b2c6;
+}
+.bg-pink{
+    background-color: #ffe6eb;
+}
+.bg-
+.start-75{
+    left:75%!important;
+}
+.top-25{
+    top:25%;
+}
+.ribbon{
+    width: 50px; 
+    height: 75px; 
+    top:2%;
+    clip-path: polygon(0% 0%,0% 100%,100% 100% 100% 0%);
+    transform: skewX(10px);
+    z-index: 1;
+}
+/* .ribbon, .carousel-item{
+    animation: swing 1s;
+} */
+.carousel-item{
+    /* animation: rot 1s;
+    animation-iteration-count: infinite; */
+}
+@keyframes swing {
+    0%{
+        transform: skewX(10deg);
+    }
+    100%{
+        transform: skewX(0deg);
+    }
+
+}
+@keyframes rot {
+    0%{
+        transform: skewX(10deg);
+        transform: skewY(10deg);
+    }
+    25%{
+        transform: skewX(0deg);
+    }
+    50%{
+        transform: skewX(-10deg);
+    }
+    100%{
+        transform: skewX(0deg);
+    }
+
+}
+
+@media(max-width: 767.98px ){
+    .ribbon{
+        top:6%;
+    }
+}
+.ribbon-left{
+    left:15%;
+}
+.ribbon-right{
+    right:15%;
+}
+.pin{
+    width: 100px;
+    height: 100px;
+    /* top:1%;
+    left:2%; */
+    position: absolute;
+    clip-path: circle(0% at 100%);
+}
+.product-discription {
+    clip-path: circle(13% at 0% 100%);
+    background: #ffe6eb !important;
+    transition: 1s;
+}
+.mother-div:hover .product-discription{
+    clip-path: circle(150% at 0% 100%);
+}
+.bg-whapp{
+    background-color: #369805;
+}
+.bg-facebook{
+    background-color: #385899;
+}
